@@ -1,6 +1,8 @@
 # frozen_string_literal: true
+
+cookbook "library-cookbook", "~> 0.1.0", git: "https://github.com/vacovsky/tinkering_with_opsworks.git", rel: "tinker2"
+
 source 'https://supermarket.chef.io'
 
 metadata
 
-cookbook "library-cookbook", "~> 0.1.0", git: "https://github.com/vacovsky/tinkering_with_opsworks.git", rel: "tinker2"

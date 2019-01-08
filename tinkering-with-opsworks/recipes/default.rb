@@ -17,3 +17,6 @@ deps.each do |d|
         level :info
     end
 end
+
+
+include_recipe 'tinker2::default'
